@@ -1,0 +1,225 @@
+/**nav bar started**/
+#top-nav{
+    background-color: #daac00 !important;
+    padding: 0 8%;
+}
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+}
+#search-box{
+    background-color: #fcc302;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    box-shadow: 5px 10px 11px #00000021,-5px -10px -11px #00000021;
+}
+#search-box::placeholder{
+    color: #fff;
+}
+#search-btn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: 5px 10px 11px #00000021,-5px -10px -11px #00000021;
+    margin-left: -10px;
+}
+@media (max-width:767px) {
+    #search-form{
+        padding-bottom: 25px;
+    }
+}
+/**banner section**/
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#banner-details h1{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 100px;
+}
+#banner-details p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner-btn1{
+    background-color: #00bec9;
+    color: #fff;
+    border: 2px solid #00bec9;
+}
+#banner-btn2{
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 15px;
+}
+@media (max-width:1100px) {
+    #banner-details h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    #banner{
+        padding:30px 0;
+    }
+}
+@media (max-width:1038px) {
+    #banner-details h1{
+        font-size: 45px;
+    }
+    #banner-details p{
+        font-size: 16px;
+    }
+}
+@media (max-width:840px) {
+    #banner-details h1{
+        font-size: 40px;
+    }
+    #banner-details p{
+        font-size: 14px;
+    }
+}
+@media (max-width:408px) {
+    #banner-details h1{
+        font-size: 25px;
+    }
+    #banner-details p{
+        font-size: 10px;
+    }
+}
+@media (max-width:768px) {
+    #banner-details h1{
+        margin-top: 0px;
+    }
+}
+
+/**service section**/
+#service-details{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: #fff;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+#service-img{
+    padding: 5%;
+}
+@media (max-width:844px) {
+    #service-img{
+        padding: 10%;
+    }
+    #service-details h1{
+        font-size: 30px;
+    }
+}
+
+/**counter section**/
+#counter-section{
+    background-image: url('Image/Cancer-in-dogs-signs-and-treatmentHERO.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+#counter-section .bi{
+    font-size: 70px;
+}
+@media (max-width:500px) {
+    #counter-section .bi{
+        font-size: 50px;
+    }
+}
+
+/**blog section**/
+#blog-sec{
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-para{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.article-details{
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+.article-date, .article-link a{
+    color: #00bec9;
+    text-decoration: none;
+}
+
+/**footer section**/
+#footer{
+    background-color: #343434;
+    padding: 80px 0;
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer-form{
+    margin: 10px 0;
+}
+#footer-search{
+    background-color: #fcc302;
+    color: #fff;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    outline: none;
+}
+#footer-submit{
+    background-color: #00bec9;
+    border: 0;
+    padding: 15px 40px;
+    color: #fff;
+    margin-left: -5px;
+}
+.social-icon{
+    font-size: 25px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+@media (max-width:1108px) {
+    #footer-search{
+        max-width: 200px;
+    }
+    #footer-submit{
+        padding: 15px 30px;
+    }
+}
+@media (max-width:898px) {
+    #footer-search{
+        max-width: 170px;
+        padding: 10px;
+    }
+    #footer-submit{
+        padding: 10px 20px;
+    }
+}
+@media (max-width:500px) {
+    #footer-search{
+        max-width: 200px;
+        padding: 10px;
+    }
+    #footer h4{
+        padding-top: 10px;
+    }
+    #footer{
+        padding-top: 50px;
+    }
+}
